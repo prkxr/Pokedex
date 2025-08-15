@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Press Start 2P', monospace;
+    text-align: center;
+    padding: 30px;
+
+
+    background-color: #2a003f;
+    color: #f5d0ff;
+}
+
+input {
+    background-color: #14001f;
+    border: 4px solid; 
+    color: inherit; 
+    padding: 14px;
+    font-size: 16px;
+    width: 300px;
+    text-transform: lowercase;
+    font-family: 'Press Start 2P', monospace;
+}
+
+
+button {
+    background-color: #14001f;
+    border: 4px solid; 
+    color: inherit; 
+    padding: 14px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Press Start 2P', monospace;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: currentColor; 
+    color: #14001f; 
+}
+
+
+#pokemonSprite {
+    display: block;
+    margin: 40px auto 20px auto;
+    border: 5px solid; 
+    image-rendering: pixelated;
+    background-color: #14001f;
+    padding: 10px;
+    width: 280px;
+    height: 280px;
+    object-fit: contain;
+}
+
+
+#pokemonStats {
+    border: 4px solid; 
+    display: inline-block;
+    padding: 20px;
+    background-color: #14001f;
+    text-align: left;
+    min-width: 250px;
+}
+
+#pokemonStats p {
+    margin: 10px 0;
+    font-size: 14px;
+}
